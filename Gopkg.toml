@@ -35,7 +35,7 @@
 
 [[constraint]]
   name = "github.com/mholt/caddy"
-  version = "0.11.1"
+  revision = "8f583dcf3694a55e32a1eb9ae4316c3f99d38c6f"
 
 [[constraint]]
   name = "github.com/stretchr/testify"
