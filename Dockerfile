@@ -16,5 +16,6 @@ ENV HOME /root
 COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/
 COPY --from=build /build/caddy /bin/
 
+VOLUME [ "/root/.caddy" ]
 ENTRYPOINT ["/bin/caddy"]
 CMD [ "-agree", "-log", "stdout" ]
